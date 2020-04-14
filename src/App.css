@@ -1,0 +1,85 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  height: 100%;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&w=1000&q=80');
+  background-size: cover;
+}
+
+select {
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 5px;
+}
+
+.search {
+  display: grid;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search input {
+  text-align: center;
+  border: 3px double gray;
+  outline: black;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 5px;
+  font-weight: bolder;
+  background-color: white;
+  border: 1px gray;
+  border-style: solid;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.book-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.book {
+  display: grid;
+  justify-content: center;
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(216, 191, 216, 0.6);
+  border-radius: 10px;
+}
+
+.book img {
+  justify-self: center;
+}
+
+.book ul li{
+  list-style-type: none;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+}
+
+.pages button {
+  margin: 10px;
+  background-color: rgb(216, 191, 216, 0.7);
+  border: none;
+  border-radius: 20px;
+}
